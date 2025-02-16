@@ -21,6 +21,10 @@ app.use(textRouter)
 app.use(imageRouter)
 app.use(videoRouter)
 
+app.use((err, req, res, next) => {
+    res.status(500).json({ success: false, message: err.message });
+})
+
 
 
 
