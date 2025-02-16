@@ -1,0 +1,16 @@
+{
+  "name": "stream-vault",
+  "version": "1.0.0",
+  "description": "StreamVault is a lightweight and efficient Node.js and Express.js application that demonstrates the practical use of Buffers and Streams for handling text, images, and videos. This project leverages asynchronous file handling and streaming techniques to optimize storage and retrieval, making it ideal for learning real-world implementations of file processing in Node.js.",
+  "license": "ISC",
+  "author": "Muhammed Ashik",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
